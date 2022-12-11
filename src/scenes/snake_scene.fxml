@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyPressed1" prefHeight="420.0" prefWidth="600.0" style="-fx-background-color: #fffdd0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="moves.SnakeController">
+   <children>
+      <Canvas fx:id="canvas1" height="400.0" layoutX="14.0" layoutY="10.0" width="400.0" />
+      <Label fx:id="label1" layoutX="476.0" layoutY="14.0" prefHeight="0.0" prefWidth="68.0" text="Snake" textFill="#00fff8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="start_btn" layoutX="450.0" layoutY="262.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Start game" textFill="#00836b">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="pause_btn" layoutX="450.0" layoutY="298.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Pause" textFill="#00836b">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit_btn" layoutX="450.0" layoutY="370.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Exit" textFill="#00836b">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="help_btn" layoutX="450.0" layoutY="334.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Help" textFill="#00836b">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="speed_combo" layoutX="450.0" layoutY="225.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label layoutX="450.0" layoutY="196.0" prefHeight="28.0" prefWidth="120.0" text="Speed:" textFill="#00836b">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="score1" layoutX="450.0" layoutY="81.0" prefHeight="25.0" prefWidth="120.0" />
+      <Label layoutX="450.0" layoutY="56.0" prefHeight="25.0" prefWidth="120.0" text="Score:" textFill="#00836b">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
